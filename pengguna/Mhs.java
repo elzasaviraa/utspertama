@@ -1,32 +1,29 @@
 package pengguna;
 
+public class Mhs extends User{
+    private String nama;
+    private String nim;
+    private int smt;
 
-public class Mhs extends User {
-    private String Nama;
-    private String Nim;
-    private int Smt;
-
-    public Mhs (String Username, String Password) {
-      super("username", "password");  
+    public Mhs (String username, String password) {
+      super(username, password);  
     }    
-
-    public void setNama(String Nama) {
+    public void setNama(String nama) {
         this.nama = nama;
     }
     public String getNama() {
         return this.nama = nama;
     }
-    public void setNim(String Nim) {
+    public void setNim(String nim) {
         this.nim = nim;
     }
     public String getNim() {
         return this.nim = nim;
     }
-    public void setSmt(int Smt) {
+    public void setSmt(int smt) {
         this.smt = smt;
     }
     public int getSmt() {
-        return this.smt =smt;
+        return this.smt = smt;
     }
-
 }
